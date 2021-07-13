@@ -1,0 +1,106 @@
+body {
+	  align-items: center;
+      justify-content: center;
+      display: flex;
+      background-color: #DADCDB;
+}
+
+.cadre {
+	    display: flex;
+	    box-shadow: 1px 1px 1px 1px black;	
+	    height: 30rem;
+	    width: 26rem ;
+	    background-color: white;
+	    position: relative;
+	    top: 109px;
+
+
+}
+
+header {
+	    display: flex;
+	    align-items: center;
+        justify-content: center;
+        position: absolute;
+        flex-direction: column;
+
+}
+
+h1 {
+	display: flex;
+	position: relative;
+	left: 52px;
+	top: -12px;
+}
+
+form {
+	display: flex;
+	position: relative;
+	left: 42px;
+	top: -15px;
+
+}
+input {
+	width: 250px;
+}
+
+.ecran {
+	display: flex;
+	position: relative;
+   box-shadow: 0.2px 0.2px 0.2px 0.2px black;
+   height: 385px;
+   width: 25.4rem;
+   top: 80px;
+   left: 7px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+  
+}
+li:hover{
+	background-color: #7f7f7f;
+
+}
+li{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+
+}
+.surligne {
+	text-decoration: line-through;
+	background-color: #7f7f7f;
+}
+li {
+	position: relative;
+	box-shadow: 1px 1px 1px 1px #7f7f7f;
+	width: 350px;
+	height: 27px;
+	left:-35px;
+	margin-top: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 15px;
+	margin-right: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.ul {
+	position: relative;
+	left: 12px;
+}
+.btn{
+	color: white;
+	background-color: #77B5FE;
+	font-weight: bold;
+}
+button {
+	border: none;
+	cursor: pointer;
+}
+button:hover {
+	background-color: white;
+	color: #77B5FE;
+}

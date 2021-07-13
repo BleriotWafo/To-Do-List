@@ -105,6 +105,7 @@ button:hover {
 	color: #77B5FE;
 }
 .signature{
+	display: flex;
 	position: relative;
 	top: 361px;
 	left: -256px;
